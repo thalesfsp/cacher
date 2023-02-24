@@ -14,7 +14,7 @@
   },
   "sideEffects": false,
   "types": "dist/src/index.d.ts",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "engines": {
     "node": ">=16",
     "npm": ">=8.3"

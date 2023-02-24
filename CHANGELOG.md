@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.7 (2023-02-24)
+
+[compare](https://github.com/thalesfsp/cacher/compare/0.1.6...0.1.7)
+
 ## 0.1.6 (2023-02-24)
 
 [compare](https://github.com/thalesfsp/cacher/compare/0.1.5...0.1.6)
