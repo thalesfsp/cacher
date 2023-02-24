@@ -1,0 +1,27 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Quality, and Security
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+#       - name: SonarCloud Scan
+#         uses: sonarsource/sonarcloud-github-action@master
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.TAG_AND_RELEASE }}
+#           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+#       - uses: stackhawk/hawkscan-action@v2.0.0
+#         with:
+#           apiKey: ${{ secrets.HAWK_API_KEY }}
+#           githubToken: ${{ secrets.TAG_AND_RELEASE }}
+#           codeScanningAlerts: true

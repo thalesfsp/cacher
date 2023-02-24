@@ -1,0 +1,61 @@
+######
+# Following files will not be included in the package (publish).
+######
+
+# Directories
+src
+node_modules
+coverage
+temp
+tmp
+.jfrog
+resources
+
+# IDEs
+.github
+.vscode
+.ide
+
+# EditorConfig
+.editorconfig
+
+# OS
+.DS_Store
+
+# Git
+.gitattributes
+.gitignore
+
+# NPM
+.npmignore
+.npmrc
+
+# NVM
+.nvmrc
+
+# CI
+.gitlab-ci.yml
+bitbucket-pipelines.yml
+
+# Log files
+.log
+
+# Husky git hooks
+.husky
+
+# ESLint
+.eslintrc
+
+# JEST
+jest.config.js
+
+# Make
+Makefile
+
+# TS
+tsconfig.json
+src/example.ts
+
+# Anything else
+npm-debug.log
+instructions.md
